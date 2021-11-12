@@ -103,7 +103,39 @@
     background-color: black;
     transition: 0.8s ease;
 }
+
+/* mobile View */
+@media only screen and (max-width: 550px){
+
+  .content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  width: 400px;
+  left: 10%;
+ 
+     }
+
+
+}
+@media only screen and (max-width: 425px){
+*{
+  margin: 0;
+  padding: 0;
+}
+.content{
+  display: block;
+  justify-content: center;
+  align-items: center;
+width: 300px;
+left: 10%;
+height: 200px;
+   }
+  }
+
          </style>
+
+
       <div class="content">
         <div class="spacing" style=" background-image: linear-gradient(  to right,
         rgb(247, 199, 207),
@@ -159,13 +191,14 @@
                     
              
         }); 
+
   </script>
   
-<div class="alert">
+<!-- <div class="alert">
     <span class="closebtn" onclick="this.parentElement.style.display='none';"  >&times;</span>
     <strong>Alert!</strong> <br />
    Please Enter Your Current Whatsapp Number
-  </div> 
+  </div>  -->
 
 
   <div class="chatbtn">
@@ -190,7 +223,7 @@ function myFunction() {
       position: fixed;
     }
 
-    .alert {
+    /* .alert {
       display: block;
       position: fixed;
       left: 0;
@@ -212,7 +245,7 @@ function myFunction() {
       line-height: 20px;
       cursor: pointer;
       transition: 0.3s;
-    }
+    } */
 
     .closebtn:hover {
       color: black;
